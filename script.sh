@@ -37,9 +37,11 @@ EOF
 
 sleep 5
 
+echo Change password root
+
 sudo passwd root
 
-sudo su - root
+echo Change password kali
 
 passwd kali
 
